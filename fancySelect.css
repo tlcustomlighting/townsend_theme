@@ -1,0 +1,261 @@
+
+
+#colorsDropdown ul.options li {
+
+width:50px;
+float:left !important;
+
+}
+
+div.fancy-select {
+	position: relative;
+	font-size: 13px;
+	color: #46565D;
+}
+
+div.fancy-select.disabled {
+	opacity: 0.5;
+}
+
+div.fancy-select select:focus + div.trigger {
+}
+
+div.fancy-select select:focus + div.trigger.open {
+	box-shadow: none;
+}
+
+div.fancy-select div.trigger-inner {
+
+padding: 5px 0px 4px 9px;
+font-weight: 500;
+color: #999;
+font-family: 'MuseoSans';
+
+}
+
+
+div.fancy-select .open div.trigger-inner {
+
+
+color: #fff;
+
+}
+
+
+
+
+div.fancy-select div.trigger {
+	border-radius: 2px;
+	cursor: pointer;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+background: #fff url(images/downarrow.png) no-repeat right 10px center;
+line-height:27px;
+	color: #444;
+	width:100%;
+	text-transform: uppercase;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+z-index:2;
+	transition: all 240ms ease-out;
+	-webkit-transition: all 240ms ease-out;
+	-moz-transition: all 240ms ease-out;
+	-ms-transition: all 240ms ease-out;
+	-o-transition: all 240ms ease-out;
+}
+
+
+.selectholder .dropdown-toggle {
+	border-radius: 2px;
+	cursor: pointer;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+background: #fff url(images/downarrow.png) no-repeat right 10px center;
+line-height:27px;
+	color:#999;
+	width:100%;
+	text-transform: uppercase;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+z-index:2;
+	transition: all 240ms ease-out;
+	-webkit-transition: all 240ms ease-out;
+	-moz-transition: all 240ms ease-out;
+	-ms-transition: all 240ms ease-out;
+	-o-transition: all 240ms ease-out;
+	border:none;
+	text-align:left;
+vertical-align:top;
+}
+
+
+
+
+
+.filtertree.open .dropdown-toggle {
+	background:#a1312f url(images/downarrowwhite.png) no-repeat right 10px center;
+
+
+}
+
+
+
+
+
+.selectholder .dropdown-toggle .caret {
+margin-left:20px;
+
+
+
+}
+
+
+
+div.fancy-select div.trigger.open {
+
+
+}
+
+
+
+div.fancy-select div.trigger.open {
+	box-shadow: none;
+	background: #a1312f url(images/downarrowwhite.png) no-repeat right 10px center;
+	color:#fff;
+}
+
+div.fancy-select div.trigger.open:after {
+	border-top-color: #fff;
+
+}
+
+div.fancy-select ul.options {
+	list-style: none;
+	margin: 0;
+	position: absolute;
+	top: 30px;
+	left: 0;
+height:0px;
+overflow:hidden;
+
+	width:100%;
+	z-index: 999;
+	border-radius: 0px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	background: #888;
+	transition: opacity 300ms ease-out, top 300ms ease-out, all 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, top 300ms ease-out, all 300ms ease-out;
+	-moz-transition: all 300ms ease-out, top 300ms ease-out, all 300ms ease-out;
+	-ms-transition: all 300ms ease-out, top 300ms ease-out, all 300ms ease-out;
+	-o-transition: all 300ms ease-out, top 300ms ease-out, all 300ms ease-out;
+}
+
+
+
+
+
+
+.selectholder ul.dropdown-menu {
+	list-style: none;
+	margin: 0;
+
+	width:100%;
+	z-index: 999;
+	border-radius: 0px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	background: #888;
+	transition: opacity 300ms ease-out, top 300ms ease-out, all 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, top 300ms ease-out, all 300ms ease-out;
+	-moz-transition: all 300ms ease-out, top 300ms ease-out, all 300ms ease-out;
+	-ms-transition: all 300ms ease-out, top 300ms ease-out, all 300ms ease-out;
+	-o-transition: all 300ms ease-out, top 300ms ease-out, all 300ms ease-out;
+	padding-top:0px;
+}
+
+
+.filtertree ul.dropdown-menu li {
+width:100%;
+margin: 0px !important;
+	}
+
+
+.selectholder li.active_item > ul.dropdown-menu {
+
+display:block;
+
+}
+
+
+
+div.fancy-select ul.options.open {
+	visibility: visible;
+	top: 35px;
+	opacity: 1;
+height:auto;
+	/* have to use a non-visibility transition to prevent this iOS issue (bug?): */
+	/*http://stackoverflow.com/questions/10736478/css-animation-visibility-visible-works-on-chrome-and-safari-but-not-on-ios*/
+	transition: opacity 300ms ease-out, top 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, top 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, top 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, top 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, top 300ms ease-out;
+}
+
+div.fancy-select ul.options.overflowing {
+	top: auto;
+	bottom: 40px;
+
+	transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+}
+
+div.fancy-select ul.options.overflowing.open {
+	top: auto;
+	bottom: 50px;
+
+	transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-webkit-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-ms-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+	-o-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+}
+
+div.fancy-select ul.options li {
+
+	transition: all 150ms ease-out;
+	-webkit-transition: all 150ms ease-out;
+	-moz-transition: all 150ms ease-out;
+	-ms-transition: all 150ms ease-out;
+	-o-transition: all 150ms ease-out;
+	floaT:none !important;
+	display:block;
+	width:100%;
+		cursor: pointer;
+		line-height:34px;
+		margin:0px;
+
+}
+
+div.fancy-select ul.options li span{
+	padding: 8px 18px;
+		color: #ddd;
+
+}
+
+div.fancy-select ul.options li.selected {
+	color: rgba(255,255,255,0.75);
+}
+
+div.fancy-select ul.options li.hover {
+	background: #444;
+}
+
+div.fancy-select ul.options li.hover span {
+
+color:#fff;
+}

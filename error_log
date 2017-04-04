@@ -1,0 +1,4 @@
+[10-Dec-2015 06:46:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/cherylt555/public_html/wp-content/themes/townsend/index.php on line 17
+[07-Apr-2016 20:55:57 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/cherylt555/public_html/wp-content/themes/townsend/index.php on line 17
+[12-Apr-2016 23:11:30 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/cherylt555/public_html/wp-content/themes/townsend/index.php on line 17
+[13-Apr-2016 17:12:42 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/cherylt555/public_html/wp-content/themes/townsend/index.php on line 17

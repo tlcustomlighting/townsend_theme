@@ -1,0 +1,40 @@
+.postmetadata{position:relative;padding-bottom:2em;margin:0}.postmetadata li{display:block;padding:1em 2em 0 1.5em;color:rgba(0,0,0,.3)}.postmetadata .author{display:block;padding:1em .5em 1em 0;border-top:.07em solid #e5e5e5;margin-top:40px;display:none !important;clear:both;font-size:12px;}.postmetadata .date{position: absolute;
+top: 0px;
+left: 0px;background:url(images/timeicon.gif) 0 0.9em no-repeat}.postmetadata .tags{padding-left:0px;}.postmetadata .comments{background:url(data:image/gif;base64,R0lGODlhEAAQAMQAAOZBMu+GfedKPOlXSutnW/jKxvSuqO+JgPa8t/rY1fWzrf/9/eU9LvSspvvh3+xuY/CMg/3t6+56cP729edNQPnV0vOjnPrc2vOnofnRzehQQv76+vKakvKel////+U7LCH5BAAAAAAALAAAAAAQABAAAAVOoCeOZGme52Q81PdpkrKVneDet9CMAe7fHI/lR/woBsUfAZD0DQhNnKQQdQEqHgOjCUCMLgGmDwBxmCIIzOHwABRQpMUgASdl6PXR4hQCADs=) 0 1.2em no-repeat}.postmetadata .inline{display:none}.ad+p,.entry p:first-child,.postmetadata .author,.postmetadata+p{font-size:1.25em;line-height:1.35em;font-weight:900;}
+
+.postmetadata+p {
+
+color: #444;
+font-size: 1.15em;
+}
+
+
+li.tags {
+
+display:none;
+
+}
+
+li.tags a {
+display: block;
+height: 23px;
+padding: 4px 10px;
+line-height: 24px;
+background: #eee;
+font-size: 11px;
+color: #555;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-transition: background .25s ease-out;
+-moz-transition: background .25s ease-out;
+-o-transition: background .25s ease-out;
+transition: background .25s ease-out;
+float: left;
+margin-right: 5px;
+
+}
+
+#pageContent p {
+line-height: 24px;
+}

@@ -1,0 +1,21 @@
+.examples-gallery .example-url{-webkit-transition:all 0.25s ease-out;-moz-transition:all 0.25s ease-out;-o-transition:all 0.25s ease-out;transition:all 0.25s ease-out;background:#fff;border:1px
+solid #d7d7d7;color:#262626;display:block;z-index:9}
+
+
+.examples-gallery .example-url:hover{-webkit-transition:all 0.125s ease-in;-moz-transition:all 0.125s ease-in;-o-transition:all 0.125s ease-in;transition:all 0.125s ease-in;border:1px
+solid #005cff}
+
+
+
+.examples-gallery .example-url:hover .example-image-overlay{-webkit-transition:all 0.125s ease-in;-moz-transition:all 0.125s ease-in;-o-transition:all 0.125s ease-in;transition:all 0.125s ease-in;opacity:1}
+
+
+
+.ie .examples-gallery .example-url:hover .example-image-overlay{display:block}
+
+
+.examples-gallery .example-image-overlay{}
+
+
+
+.ie .examples-gallery .example-image-overlay{display:none}
